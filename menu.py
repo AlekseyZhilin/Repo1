@@ -13,6 +13,5 @@ def show_menu(menu, header=''):
 
     return str_menu + line_table
 
-
 print(show_menu(['первый', 'второй', 'третий'], 'меню'))
 print(show_menu(['первый', 'второй 12345', 'третий']))
